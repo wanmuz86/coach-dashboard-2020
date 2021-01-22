@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/coach-dashboard-2020/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/coach-dashboard-2020/static/js/main.8f5c3ef2.chunk.js",
+    "main.js.map": "/coach-dashboard-2020/static/js/main.8f5c3ef2.chunk.js.map",
+    "runtime-main.js": "/coach-dashboard-2020/static/js/runtime-main.430b0404.js",
+    "runtime-main.js.map": "/coach-dashboard-2020/static/js/runtime-main.430b0404.js.map",
+    "static/js/2.30e311c2.chunk.js": "/coach-dashboard-2020/static/js/2.30e311c2.chunk.js",
+    "static/js/2.30e311c2.chunk.js.map": "/coach-dashboard-2020/static/js/2.30e311c2.chunk.js.map",
+    "static/js/3.863bce6f.chunk.js": "/coach-dashboard-2020/static/js/3.863bce6f.chunk.js",
+    "static/js/3.863bce6f.chunk.js.map": "/coach-dashboard-2020/static/js/3.863bce6f.chunk.js.map",
+    "index.html": "/coach-dashboard-2020/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/coach-dashboard-2020/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.30e311c2.chunk.js.LICENSE.txt": "/coach-dashboard-2020/static/js/2.30e311c2.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/coach-dashboard-2020/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.430b0404.js",
+    "static/js/2.30e311c2.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.8f5c3ef2.chunk.js"
+  ]
+}
