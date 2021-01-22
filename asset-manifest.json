@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coach-dashboard-2020/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/coach-dashboard-2020/static/js/main.8f5c3ef2.chunk.js",
-    "main.js.map": "/coach-dashboard-2020/static/js/main.8f5c3ef2.chunk.js.map",
+    "main.js": "/coach-dashboard-2020/static/js/main.b8051b51.chunk.js",
+    "main.js.map": "/coach-dashboard-2020/static/js/main.b8051b51.chunk.js.map",
     "runtime-main.js": "/coach-dashboard-2020/static/js/runtime-main.430b0404.js",
     "runtime-main.js.map": "/coach-dashboard-2020/static/js/runtime-main.430b0404.js.map",
     "static/js/2.30e311c2.chunk.js": "/coach-dashboard-2020/static/js/2.30e311c2.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.430b0404.js",
     "static/js/2.30e311c2.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.8f5c3ef2.chunk.js"
+    "static/js/main.b8051b51.chunk.js"
   ]
 }
