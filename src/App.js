@@ -1,24 +1,53 @@
 import logo from './logo.svg';
-import './App.css';
-
+import Header from './components/Header.js';
+import Footer from './components/Footer.js';
+import Main from './components/Main.js';
+import Add from './components/Add.js';
+import Client from './components/Client';
+import Coach from './components/Coach';
+import Gym from './components/Gym';
+import Login from './components/Login';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import CoachDetail from './components/CoachDetail';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <div>
+   <Header/>
+   <Switch> 
+   <Route path="/add">
+     <Add/>
+  </Route>
+  <Route path="/gyms">
+     <Gym/>
+  </Route>
+  <Route path="/clients">
+     <Client/>
+  </Route>
+  <Route path="/coaches/:id">
+     <CoachDetail/>
+  </Route>
+  <Route path="/coaches">
+     <Coach/>
+  </Route>
+  <Route path="/login">
+     <Login/>
+  </Route>
+  
+  <Route path="/main">
+   <Main/>
+   </Route>
+   <Route path="/">
+     <Login/>
+  </Route>
+   </Switch>
+   <Footer/>
+   </div>
+   </Router>
   );
 }
 
